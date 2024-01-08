@@ -11,7 +11,7 @@
       <PreprocessorDefinitions>SIM_P3Dv4;SIMULATOR=P3Dv4;SCC_CAPS_CAMERAS;SCC_CAPS_SIMCONN_TEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)SDK\P3Dv4\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDK\P3Dv4;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
